@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+        <!-- CSS File -->
+        <link rel="stylesheet" href="">
+    
+        <title>Result</title>
+</head>
+<body>
+    <div id="result">
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
+        <p id="p4"></p>
+    </div>
+
+
+    <script src="/confirm_password.js"></script>
+    <script>
+        document.getElementById("p1").innerHTML = sessionStorage.getItem("f_name") + ' ' + sessionStorage.getItem("l_name");
+        document.getElementById("p2").innerHTML = sessionStorage.getItem("e");
+        document.getElementById("p3").innerHTML = sessionStorage.getItem("birthday");
+        document.getElementById("p4").innerHTML = sessionStorage.getItem("country");
+    </script>
+</body>
+</html>

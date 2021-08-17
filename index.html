@@ -30,17 +30,17 @@
             <div class="contact-form row">
 
                 <div class="form-field col-lg-6">
-                    <input onclick="myFunction1()" class="input-text" type="text" name="">
+                    <input id="first_name" onclick="myFunction1()" class="input-text" type="text" name="">
                     <div id="f_name" class="lable">First Name</div>
                 </div>
 
                 <div class="form-field col-lg-6">
-                    <input onclick="myFunction2()" class="input-text" type="text" name="">
+                    <input id="last_name" onclick="myFunction2()" class="input-text" type="text" name="">
                     <div id="l_name" class="lable">Last Name</div>
                 </div>
 
                 <div class="form-field col-lg-6">
-                    <input onclick="myFunction3()" class="input-text" type="email" name="">
+                    <input id="e" onclick="myFunction3()" class="input-text" type="email" name="">
                     <div id="email" class="lable">Email</div>
                 </div>
 
@@ -61,15 +61,15 @@
                 <div class="form-field col-lg-6">
                     <select style="color:#A07855FF" class="input-text" name="" id="country">
                         <option value="">Select Country</option>
-                        <option value="pak">Pakistan</option>
-                        <option value="amr">America</option>
-                        <option value="afg">Afghanistan</option>
-                        <option value="ind">India</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="America">America</option>
+                        <option value="Afghanistan">Afghanistan</option>
+                        <option value="India">India</option>
                     </select>
                 </div>
 
                 <div class="form-field col-lg-12">
-                    <input id="submit" class="submit-btn" value="submit" type="submit" name="">
+                    <input id="submit" onclick="anotherPage()" class="submit-btn" value="submit" type="submit" name="">
                 </div>
 
             </div>
