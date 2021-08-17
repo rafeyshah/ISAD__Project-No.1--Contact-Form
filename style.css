@@ -14,8 +14,8 @@
     font-size: 3em;
     line-height: 48px;
     padding-bottom: 20px;
-    color: #5543ca;
-    background: linear-gradient(to right, #f4524d 0%, #5543ca 100%);
+    color: #A07855FF;
+    background: linear-gradient(to right, #D4B996FF 0%, #A07855FF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -30,7 +30,7 @@
     width: 100%;
     height: 36px;
     border-width: 0 0 2px 0;
-    border-color: #5543ca;
+    border-color: #A07855FF;
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
@@ -52,7 +52,7 @@
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
-    color: #5543ca;
+    color: #A07855FF;
     cursor: text;
     text-transform: capitalize;
     transition: transform 0.2s ease-in-out;
@@ -70,7 +70,7 @@
 
 .contact-form .submit-btn{
     display: inline-block;
-    background-image: linear-gradient(125deg,#a72879,#064497);
+    background-image: linear-gradient(125deg,#D4B996FF,#A07855FF);
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
