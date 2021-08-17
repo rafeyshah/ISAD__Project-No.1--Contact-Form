@@ -24,6 +24,7 @@
 
     <script src="/confirm_password.js"></script>
     <script>
+        // Getting values from session storage to html
         document.getElementById("p1").innerHTML = sessionStorage.getItem("f_name") + ' ' + sessionStorage.getItem("l_name");
         document.getElementById("p2").innerHTML = sessionStorage.getItem("e");
         document.getElementById("p3").innerHTML = sessionStorage.getItem("birthday");

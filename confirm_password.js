@@ -48,7 +48,8 @@ var anotherPage = function () {
     var birthday = document.getElementById("birthday").value;
     var country = document.getElementById("country").value;
 
-    sessionStorage.setItem("f_name", f_name);
+    // Session storage stores value until window is closed
+    sessionStorage.setItem("f_name", f_name); 
     sessionStorage.setItem("l_name", l_name);
     sessionStorage.setItem("e", e);
     sessionStorage.setItem("birthday", birthday);
