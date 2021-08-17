@@ -1,3 +1,4 @@
+
 .contact_us{
     max-width: 800px;
     margin: 50px auto;
@@ -35,8 +36,13 @@
     font-weight: 400;
 }
 
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label{
+    transform: translateY(-24px);
+}
 .contact-form .input-text:focus{
     outline: none;
+    
 }
 
 .contact-form .lable{
@@ -52,11 +58,25 @@
     transition: transform 0.2s ease-in-out;
 }
 
+.input-text ~ .lable{
+    transition:top 0.3s ease-in-out;
+    position:absolute;
+    top:0px;
+   }
+
+.input-text:focus ~ .lable{
+    top:-20px;
+}
+
 .contact-form .submit-btn{
     display: inline-block;
     background-image: linear-gradient(125deg,#a72879,#064497);
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
-    fon
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
 }
