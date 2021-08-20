@@ -55,7 +55,7 @@ var anotherPage = function () {
     sessionStorage.setItem("birthday", birthday);
     sessionStorage.setItem("country", country);
     
-    window.location.href = "/result.html";
+    // window.location.href = "/result.html";
 
     // document.getElementById("p1").innerHTML = sessionStorage.getItem("f_name");
     // document.getElementById("p1").innerHTML = sessionStorage.getItem("l_name");

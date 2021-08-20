@@ -27,7 +27,7 @@
         <div class="container">
 
             <!-- In 1 row place 2 columns i.e [12 columns in 1row] -->
-            <div class="contact-form row">
+            <form onsubmit="anotherPage()" action="/result.html" class="contact-form row">
 
                 
                 <!-- ********************* -->
@@ -37,36 +37,36 @@
                 
                 <!-- Occupies 6 columns space -->
                 <div class="form-field col-lg-6">
-                    <input id="first_name" onclick="myFunction1()" class="input-text" type="text" name="">
+                    <input id="first_name" onclick="myFunction1()" class="input-text" type="text" required name="">
                     <div id="f_name" class="lable">First Name</div>
                 </div>
 
                 <div class="form-field col-lg-6">
-                    <input id="last_name" onclick="myFunction2()" class="input-text" type="text" name="">
+                    <input id="last_name" onclick="myFunction2()" class="input-text" required type="text" name="">
                     <div id="l_name" class="lable">Last Name</div>
                 </div>
 
                 <div class="form-field col-lg-6">
-                    <input id="e" onclick="myFunction3()" class="input-text" type="email" name="">
+                    <input id="e" onclick="myFunction3()" class="input-text" required type="email" name="">
                     <div id="email" class="lable">Email</div>
                 </div>
 
                 <div class="form-field col-lg-6">
-                    <input style="color:#A07855FF" id="birthday" class="input-text" type="date" name="">
+                    <input style="color:#A07855FF" id="birthday" required class="input-text" type="date" name="">
                 </div>
 
                 <div class="form-field col-lg-6">
-                    <input id="pass" onclick="myFunction4()" class="input-text" type="password" onkeyup='check();' name="">
+                    <input id="pass" onclick="myFunction4()" required class="input-text" type="password" onkeyup='check();' name="">
                     <div id="password" class="lable">Password</div>
                 </div>
 
                 <div class="form-field col-lg-6">
-                    <input id="c_pass" onclick="myFunction5()" onkeyup='check();' class="input-text" type="password" name="">
+                    <input id="c_pass" onclick="myFunction5()" required onkeyup='check();' class="input-text" type="password" name="">
                     <div id="confirm_password" class="lable">Confirm Password</div>
                 </div>
                 <span id='message'></span>
                 <div class="form-field col-lg-6">
-                    <select style="color:#A07855FF" class="input-text" name="" id="country">
+                    <select style="color:#A07855FF" class="input-text" required name="" id="country">
                         <option value="">Select Country</option>
                         <option value="Pakistan">Pakistan</option>
                         <option value="America">America</option>
@@ -76,10 +76,10 @@
                 </div>
 
                 <div class="form-field col-lg-12">
-                    <input id="submit" onclick="anotherPage()" class="submit-btn" value="submit" type="submit" name="">
+                    <input id="submit" class="submit-btn" value="submit" type="submit" name="">
                 </div>
 
-            </div>
+            </form>
         </div>
     </section>
 
